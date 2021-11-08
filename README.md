@@ -12,7 +12,6 @@ The paper proposes a method to first detect PCB defects using template matching 
 5) Spur
 6) Spurious Copper
 
-Lol
 
 
 
