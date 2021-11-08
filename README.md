@@ -12,6 +12,7 @@ The paper proposes a method to first detect PCB defects using template matching 
 5) Spur
 6) Spurious Copper
 
+![alt text](https://github.com/MukundSai7907/PCB-Defects-Detection-and-Classification/blob/main/defects.png?raw=true)
 
 
 
