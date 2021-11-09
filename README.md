@@ -21,12 +21,22 @@ The DenseNet has a very popular structure with local interconnections as shown b
 
 ![alt text](https://github.com/MukundSai7907/PCB-Defects-Detection-and-Classification/blob/main/Dnet.png?raw=true)
 
-In the model proposed, two of these "dense" blocks are used encapsulated between Covolution and Pooling layers as shown below
+In the model proposed, two of these "dense" blocks used are encapsulated between Covolution and Pooling layers as shown below
 
 
 ![alt text](https://github.com/MukundSai7907/PCB-Defects-Detection-and-Classification/blob/main/Dnet2.png?raw=true)
 
-##Results: 
+## Results: 
 
-A sample template and defective image are shown below 
+A sample template (left) and defective image (right) are shown below 
+
+![alt text](https://github.com/MukundSai7907/PCB-Defects-Detection-and-Classification/blob/main/TempTest.png?raw=true)
+
+From here, after template matching and some image transformatins (detailed in the paper) we localize the defects as shown
+
+![alt text](https://github.com/MukundSai7907/PCB-Defects-Detection-and-Classification/blob/main/PostIP.png?raw=true)
+
+Feeding an ROI drawn around each of these defects to the DenseNet, the final result has the defect labelled along with the confidence
+
+![alt text](https://github.com/MukundSai7907/PCB-Defects-Detection-and-Classification/blob/main/Result.png?raw=true)
 
