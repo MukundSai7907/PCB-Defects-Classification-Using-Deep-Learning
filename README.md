@@ -15,4 +15,8 @@ The paper proposes a method to first detect PCB defects using template matching 
 ![alt text](https://github.com/MukundSai7907/PCB-Defects-Detection-and-Classification/blob/main/Defects.png?raw=true)
 
 
+## Classifier Model: 
+
+The DenseNet has a very popular structure with local interconnections as shown below
+
 
