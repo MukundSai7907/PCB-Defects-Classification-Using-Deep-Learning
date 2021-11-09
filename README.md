@@ -12,31 +12,31 @@ The paper proposes a method to first detect PCB defects using template matching 
 5) Spur
 6) Spurious Copper
 
-![alt text](https://github.com/MukundSai7907/PCB-Defects-Detection-and-Classification/blob/main/Defects.png?raw=true)
+![alt text](https://github.com/MukundSai7907/PCB-Defects-Detection-and-Classification/blob/main/Readme_Images/Defects.png?raw=true)
 
 
 ## Classifier Model: 
 
 The DenseNet has a very popular structure with local interconnections as shown below
 
-![alt text](https://github.com/MukundSai7907/PCB-Defects-Detection-and-Classification/blob/main/Dnet.png?raw=true)
+![alt text](https://github.com/MukundSai7907/PCB-Defects-Detection-and-Classification/blob/main/Readme_Images/Dnet.png?raw=true)
 
 In the model proposed, two of these "dense" blocks used are encapsulated between Covolution and Pooling layers as shown below
 
 
-![alt text](https://github.com/MukundSai7907/PCB-Defects-Detection-and-Classification/blob/main/Dnet2.png?raw=true)
+![alt text](https://github.com/MukundSai7907/PCB-Defects-Detection-and-Classification/blob/main/Readme_Images/Dnet2.png?raw=true)
 
 ## Results: 
 
 A sample template (left) and defective image (right) are shown below 
 
-![alt text](https://github.com/MukundSai7907/PCB-Defects-Detection-and-Classification/blob/main/TempTest.png?raw=true)
+![alt text](https://github.com/MukundSai7907/PCB-Defects-Detection-and-Classification/blob/main/Readme_Images/TempTest.png?raw=true)
 
 From here, after template matching and some image transformations (detailed in the paper) we localize the defects as shown
 
-![alt text](https://github.com/MukundSai7907/PCB-Defects-Detection-and-Classification/blob/main/PostIP.png?raw=true)
+![alt text](https://github.com/MukundSai7907/PCB-Defects-Detection-and-Classification/blob/main/Readme_Images/PostIP.png?raw=true)
 
 Feeding an ROI drawn around each of these defects to the DenseNet, the final result has the defect labelled along with the confidence
 
-![alt text](https://github.com/MukundSai7907/PCB-Defects-Detection-and-Classification/blob/main/Result.png?raw=true)
+![alt text](https://github.com/MukundSai7907/PCB-Defects-Detection-and-Classification/blob/main/Readme_Images/Result.png?raw=true)
 
