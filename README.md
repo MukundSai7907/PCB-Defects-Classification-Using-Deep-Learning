@@ -19,4 +19,7 @@ The paper proposes a method to first detect PCB defects using template matching 
 
 The DenseNet has a very popular structure with local interconnections as shown below
 
+![alt text](https://github.com/MukundSai7907/PCB-Defects-Detection-and-Classification/blob/main/Dnet.png?raw=true)
+
+In the model proposed, two of these "dense" blocks are used encapsulated between Covolution and Pooling layers as shown below
 
