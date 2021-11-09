@@ -39,8 +39,8 @@ def morph_transform(ref , test):
  return transformed_img
 
 
-image1 = cv2.imread('/Users/mukund/Desktop/7_SEM/DeepPCB-master/PCBData/group00041/00041/00041093_temp.jpg')
-image2 = cv2.imread('/Users/mukund/Desktop/7_SEM/DeepPCB-master/PCBData/group00041/00041/00041093_test.jpg')
+image1 = cv2.imread('TemplatePath')
+image2 = cv2.imread('TestPath')
 ref_test = morph_transform(image1 , image2)
 image2 = ref_test
 image1 = cv2.medianBlur(image1,5)
@@ -61,7 +61,7 @@ cv2.imshow('RES_CONTOURS' , edges)
 cv2.waitKey(0)
 cnts = cv2.findContours(edges, cv2.RETR_EXTERNAL , cv2.CHAIN_APPROX_SIMPLE)
 cnts = imutils.grab_contours(cnts)
-img2 = cv2.imread('/Users/mukund/Desktop/7_SEM/DeepPCB-master/PCBData/group00041/00041/00041093_test.jpg')
+img2 = cv2.imread('TestPath')
 
 
 
@@ -88,8 +88,8 @@ plt.scatter(CX , CY , c='r' , s=40)
 plt.show()
 
 
-im = Image.open("/Users/mukund/Desktop/7_SEM/DeepPCB-master/PCBData/group00041/00041/00041093_test.jpg")
-model = load_model('/Users/mukund/Desktop/model/MODEL_FT1.h5')
+im = Image.open("TestPath")
+model = load_model('ModelPath')
 # print(model.summary())
 classes = {
   0: "Open",
