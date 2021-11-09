@@ -32,7 +32,7 @@ A sample template (left) and defective image (right) are shown below
 
 ![alt text](https://github.com/MukundSai7907/PCB-Defects-Detection-and-Classification/blob/main/TempTest.png?raw=true)
 
-From here, after template matching and some image transformatins (detailed in the paper) we localize the defects as shown
+From here, after template matching and some image transformations (detailed in the paper) we localize the defects as shown
 
 ![alt text](https://github.com/MukundSai7907/PCB-Defects-Detection-and-Classification/blob/main/PostIP.png?raw=true)
 
