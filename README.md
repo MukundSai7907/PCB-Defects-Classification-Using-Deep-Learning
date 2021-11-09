@@ -23,3 +23,10 @@ The DenseNet has a very popular structure with local interconnections as shown b
 
 In the model proposed, two of these "dense" blocks are used encapsulated between Covolution and Pooling layers as shown below
 
+
+![alt text](https://github.com/MukundSai7907/PCB-Defects-Detection-and-Classification/blob/main/Dnet2.png?raw=true)
+
+##Results: 
+
+A sample template and defective image are shown below 
+
